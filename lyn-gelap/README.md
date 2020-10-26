@@ -32,7 +32,6 @@ Already have [Stylus][stylus]? Click [here][install] to install.
 - Note tested on other boards except /kopitiam/
 - Issue with post with formatted texts ([Issue][formatted-post])*
 - Issue with users signature*
-- Some fb embeds (iframe) cannot change color, I forced to show white
 - Only first level quotes implemented ([Issue][multilevel-quote])*
 - Inbox not yet implemented
 - Search in topics page not implemented

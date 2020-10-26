@@ -144,7 +144,16 @@
     }
 
     SPAN.member-tagged {
-        background-color: rgb(61 89 125);
+        background-color: #3f93f7;
+    }
+    
+    #topic_replies {
+        padding: 1em;
+    }
+    
+    #topic_replies A {
+        text-decoration: underline;
+        color: #3f93f7;
     }
 
     /** POST */
