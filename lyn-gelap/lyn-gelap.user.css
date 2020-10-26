@@ -39,7 +39,7 @@
     table,
     tr,
     td {
-        font-size: 14px;
+        font-size: 1rem;
     }
 
     /** topics table row */
@@ -132,7 +132,8 @@
 
 
     [class='postcolor post_text'] {
-        font-size: 18px;
+        font-size: 1em;
+        line-height: 1.5em;
     }
 
     .lastaction {
@@ -178,11 +179,20 @@
     .post_td_right {
         padding: 1em;
     }
+
+    .postdetails,
+    .normalname {
+        font-size: 0.9rem;
+    }
+
+    /** quote posts */
     .post_text > .quotetop {
         background: #0d7377;
         color: #e4e4e4;
         padding-left: 1em;
         border-left: 10px solid #41aea9;
+        font-style: italic;
+        font-size: 0.7rem;
     }
 
     .post_text > .quotemain {
@@ -232,6 +242,21 @@
     .barc {
         background: #132743;
         border: 1px solid gray;
+    }
+
+    .like {
+        font-size: 0.8rem;
+        font-style: italic;
+    }
+
+    .like i {
+        color: #4785fd;
+    }
+
+    .like a:link,
+    .like a:visited,
+    .like a:active {
+        color: #4785fd;
     }
 
     /** POST REPLY PAGE */
