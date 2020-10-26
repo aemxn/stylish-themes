@@ -49,5 +49,5 @@ Already have [Stylus][stylus]? Click [here][install] to install.
 
 
 [stylus]: https://add0n.com/stylus.html
-[install]: https://github.com/aemxn/lyn-gelap/raw/master/lyn-gelap.user.css
-[screenshot]: https://github.com/aemxn/lyn-gelap/tree/master/screenshot
+[install]: https://github.com/aemxn/stylish-themes/blob/master/lyn-gelap/lyn-gelap.user.css
+[screenshot]: https://github.com/aemxn/stylish-themes/tree/master/lyn-gelap/screenshot
