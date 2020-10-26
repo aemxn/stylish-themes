@@ -33,6 +33,7 @@ Already have [Stylus][stylus]? Click [here][install] to install.
 - Issue with post with formatted texts*: https://forum.lowyat.net/topic/5041690
 - Issue with users signature*
 - Some fb embeds (iframe) cannot change color, I forced to show white
+- Only first level quotes implemented
 - Inbox not yet implemented
 - Search in topics page not implemented
 - Many places lah not yet implemented
