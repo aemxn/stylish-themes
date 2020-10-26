@@ -212,6 +212,11 @@
     /** post deleted */
     .borderwrap p {
         background: #2d4059;
+        color: #e4e4e4
+    }
+
+    .borderwrap p a {
+        color: red
     }
 
     td.catend {
