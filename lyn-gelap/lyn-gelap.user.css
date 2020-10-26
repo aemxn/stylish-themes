@@ -1,0 +1,286 @@
+/* ==UserStyle==
+@name        Lowyat.NET — Edisi Gelap
+@namespace   bara bara api
+@version     1.0.0
+@homepageURL https://github.com/aemxn/lyn-gelap/
+@updateURL   https://github.com/aemxn/lyn-gelap/raw/master/lyn-gelap.user.css
+@license     CC-BY-SA-4.0
+@author      bara bara api
+==/UserStyle== */
+@-moz-document url-prefix("https://forum.lowyat.net/") {
+body {
+    background: #243447;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+/** TOPICS LIST (somewhat global, idk) */
+#userlinks,
+#userlinksguest {
+    background: #008891;
+    border: none;
+}
+
+#userlinks p,
+#userlinksguest p {
+    font-size: 1.1em;
+}
+
+/** poll */
+.row1 > b {
+    color: #e4e4e4;
+}
+
+/** table/post wrapper */
+#ipbwrapper {
+    width: 65%;
+}
+
+/** topic table */
+table,
+tr,
+td {
+    font-size: 14px;
+}
+
+/** topics table row */
+[class='row1'] {
+    background: #2d4059;
+}
+
+/** topics table row */
+[class='row2'] {
+    background: #2d4059;
+}
+
+table th,
+.borderwrap table th,
+.subtitle,
+.subtitlediv,
+.postlinksbar {
+    background: #36777b;
+    color: #e7e7de;
+}
+
+.darkrow1,
+.maintitle {
+    background: #008891;
+    color: #e7e7de;
+}
+
+.borderwrap,
+.borderwrapm {
+    background: #33928eb8;
+    border: 2em solid #2d4059;
+    padding: 0;
+    margin: 0;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: white
+}
+
+span[style] {
+    color: #f56a79 !important
+}
+
+#forum_topic_title {
+    color: #e7e7de;
+}
+
+#forum_topic_views {
+    color: #e4e4e4;
+}
+
+.minipagelink,
+.minipagelinklast {
+    background: #00587a;
+}
+
+.pagelink,
+.pagecurrent,
+.pagelinklast {
+    background: #00587a;
+}
+
+td .desc {
+    color: #bdbdbd;
+}
+
+tr,
+#forum_section_row,
+.forumdesc {
+    color: #bdbdbd;
+}
+
+.forumdesc a:link,
+.forumdesc a:visited,
+.forumdesc a:active {
+    color: #e7e7de;
+}
+
+#forum_section_name i {
+    color: #e7e7de;
+}
+
+#forum_section_topics,
+#forum_section_replies,
+#forum_section_lastpost {
+    color: #e4e4e4;
+}
+
+
+[class='postcolor post_text'] {
+    font-size: 18px;
+}
+
+.lastaction {
+    color: #e7e7de
+}
+
+#replies_to_me A {
+    color: red
+}
+
+/** POST */
+.post_td_right {
+    background: #2d4059;
+    color: white;
+    padding: 2em;
+}
+
+.fb-post,
+.fb_iframe_widget {
+    background: white;
+}
+
+.post_td_left {
+    background: #243852;
+    color: white;
+    padding: 0.5em;
+}
+
+.row2,
+.post_td_right {
+    padding: 1em;
+}
+.post_text > .quotetop {
+    background: #0d7377;
+    color: #e4e4e4;
+    padding-left: 1em;
+    border-left: 10px solid #41aea9;
+}
+
+.post_text > .quotemain {
+    background: #00587a;
+    color: #e4e4e4;
+    padding-left: 1em;
+    border-left: 10px solid #41aea9;
+    font-size: 1rem;
+}
+
+.post_text > .spoilertop {
+    background: #0d7377;
+    color: #e4e4e4;
+}
+
+.post_text > .spoilermain {
+    background: #00587a;
+    color: white;
+}
+
+td.formbuttonrow,
+.borderwrap p.formbuttonrow,
+.borderwrap p.formbuttonrow1 {
+    background: #39506f !important;
+}
+
+td.catend {
+    display: none;
+}
+
+tr[style] {
+    background: transparent !important;
+}
+
+.bar,
+.barb,
+.barc {
+    background: #132743;
+    border: 1px solid gray;
+}
+
+/** POST REPLY PAGE */
+.formtable td.formtitle,
+.formsubtitle {
+    background: #16697a;
+    color: #e7e7de;
+}
+
+.formtable td,
+.pformleft,
+.pformleftw,
+.pformright {
+    background: #0f3057;
+    color: white;
+}
+
+.pformleft > table > tbody > tr:nth-child(1) b {
+    color: white;
+}
+
+.borderwrap > table > tbody > tr > row2 {
+    color: white;
+}
+
+/** QUICK REPLY TEXT AREA */
+.textarea,
+.searchinput {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+    font-size: 1rem;
+}
+
+/** POST REPLY PAGE (inherited from topics listing) */
+[class='row1'] {
+    color: white;
+}
+
+[class='row2'] {
+    color: white;
+}
+
+[class='row1'] .quotetop {
+    background: #0d7377;
+    color: #e4e4e4;
+    padding-left: 1em;
+    border-left: 10px solid #41aea9;
+}
+
+[class='row1'] .quotemain {
+    background: #00587a;
+    color: #e4e4e4;
+    padding-left: 1em;
+    border-left: 10px solid #41aea9;
+    font-size: 1rem;
+}
+
+/** INPUT BUTTON */
+input.button {
+    padding: 1em;
+    height: 3em;
+}
+
+/** CONTROL PANEL */
+#ucpmenu,
+#ucpcontent {
+    background: #2d6187;
+}
+
+/** INBOX (message) */
+/** TODO */
+/** FOOTER */
+.copyright {
+    color: white;
+}
+}
