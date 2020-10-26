@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Lowyat.NET — Edisi Gelap
 @namespace   github.com/aemxn/stylish-themes/
-@version     1.0.0
+@version     1.0.1
 @homepageURL https://github.com/aemxn/stylish-themes/tree/master/lyn-gelap
 @updateURL   https://github.com/aemxn/stylish-themes/raw/master/lyn-gelap/lyn-gelap.user.css
 @license     CC-BY-SA-4.0
@@ -9,7 +9,7 @@
 ==/UserStyle== */
 @-moz-document url-prefix("https://forum.lowyat.net/") {
     body {
-        background: #243447;
+        background: #243447f0;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
     }
 
@@ -23,6 +23,15 @@
     #userlinks p,
     #userlinksguest p {
         font-size: 1.1em;
+    }
+
+    #navstrip {
+        color: #e7e7de;
+    }
+
+    #navstrip a:link,
+    #navstrip a:visited {
+        background: #5281b3;
     }
 
     /** poll */
@@ -40,15 +49,12 @@
     tr,
     td {
         font-size: 1rem;
+        color: #e7e7de;
     }
 
     /** topics table row */
-    [class='row1'] {
-        background: #2d4059;
-    }
-
-    /** topics table row */
-    [class='row2'] {
+    .row1,
+    .row2 {
         background: #2d4059;
     }
 
@@ -81,8 +87,8 @@
         color: white
     }
 
-    span[style] {
-        color: #f56a79 !important
+    .row1 span[style] {
+        color: #34b3bb !important
     }
 
     #forum_topic_title {
@@ -95,13 +101,17 @@
 
     .minipagelink,
     .minipagelinklast {
-        background: #00587a;
+        background: #008891;
+        border: none;
     }
 
     .pagelink,
-    .pagecurrent,
     .pagelinklast {
         background: #00587a;
+    }
+
+    .pagecurrent {
+        background: #36777b;
     }
 
     td .desc {
@@ -130,8 +140,8 @@
         color: #e4e4e4;
     }
 
-
-    [class='postcolor post_text'] {
+    .postcolor,
+    .post_text {
         font-size: 1em;
         line-height: 1.5em;
     }
@@ -149,15 +159,38 @@
     }
 
     #topic_replies {
-        padding: 1em;
+        background: #0087bb;
+        color: white;
+        left: 10px;
+        top: 10px;
+        font-size: 0.8rem;
     }
 
     #topic_replies A {
         text-decoration: underline;
-        color: #3f93f7;
+        color: white;
+    }
+
+    /** INBOX (message) */
+    .post1,
+    .bg1 {
+        background: #2d4059;
+    }
+
+    .darkrow3 {
+        background: #36777b;
+        color: #e7e7de;
     }
 
     /** POST */
+    .post2 a:link,
+    .post2 a:visited,
+    .post2 a:active,
+    .post1 a:link,
+    .post1 a:visited,
+    .post1 a:active {
+        color: #609cec;
+    }
     .post_td_right {
         background: #2d4059;
         color: white;
@@ -185,17 +218,14 @@
         font-size: 0.9rem;
     }
 
-    /** quote posts */
-    .post_text > .quotetop {
+    .quotetop {
         background: #0d7377;
         color: #e4e4e4;
         padding-left: 1em;
         border-left: 10px solid #41aea9;
-        font-style: italic;
-        font-size: 0.7rem;
     }
 
-    .post_text > .quotemain {
+    .quotemain {
         background: #00587a;
         color: #e4e4e4;
         padding-left: 1em;
@@ -203,6 +233,13 @@
         font-size: 1rem;
     }
 
+
+    /** default signature plain text */
+    .signature {
+        color: #979898;
+    }
+
+    /** quote posts */
     /** spoiler */
     .post_text > .spoilertop {
         background: #0d7377;
@@ -223,6 +260,10 @@
     .quotemain > .spoilermain {
         background: #006992;
         color: white;
+    }
+
+    .borderwrap {
+        border-radius: 25px;
     }
 
     td.formbuttonrow,
@@ -282,7 +323,7 @@
     .pformleft,
     .pformleftw,
     .pformright {
-        background: #0f3057;
+        background: #2d4059;
         color: white;
     }
 
@@ -310,21 +351,6 @@
         color: white;
     }
 
-    [class='row1'] .quotetop {
-        background: #0d7377;
-        color: #e4e4e4;
-        padding-left: 1em;
-        border-left: 10px solid #41aea9;
-    }
-
-    [class='row1'] .quotemain {
-        background: #00587a;
-        color: #e4e4e4;
-        padding-left: 1em;
-        border-left: 10px solid #41aea9;
-        font-size: 1rem;
-    }
-
     /** INPUT BUTTON */
     input.button {
         padding: 1em;
@@ -334,11 +360,9 @@
     /** CONTROL PANEL */
     #ucpmenu,
     #ucpcontent {
-        background: #2d6187;
+        background: #2d4059;
     }
 
-    /** INBOX (message) */
-    /** TODO */
     /** FOOTER */
     .copyright {
         color: white;

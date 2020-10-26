@@ -1,6 +1,6 @@
 # Lowyat.NET — Edisi Gelap
 
-Please read #issues before installing.
+*Please read **Issues** below before installing.*
 
 Already have [Stylus][stylus]? Click [here][install] to install.
 
@@ -29,24 +29,19 @@ Already have [Stylus][stylus]? Click [here][install] to install.
 
 ### Issues:
 
-- Note tested on other boards except /kopitiam/
-- Issue with post with formatted texts ([Issue][formatted-post])*
-- Issue with users signature*
-- Inbox not yet implemented
-- Search in topics page not implemented
-- Many places lah not yet implemented
-
-**2lazy2fix*
+- Not heavily tested on other boards except /kopitiam/, so far everything's looks fine
+- ~~Issue with post with formatted texts ([Issue][formatted-post])~~
+- ~~Issue with users signature~~
+- ~~Inbox not yet implemented~~
+- ~~Search in topics page not implemented~~
 
 ### FAQ:
 
 1. Where do I find updates?
     - Go to Stylus Manage and update this script, if there is any
-2. Who is gonna maintain?
-    - Me. As long as I still browse LYN during my entire lifetime.
-3. Are you trying to hack my compuater?
+2. Are you trying to hack my compuater?
     - No
-4. License?
+3. License?
     - Don't have, it's public, do whatever you want
 
 
