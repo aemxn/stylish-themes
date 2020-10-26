@@ -6,16 +6,19 @@ Already have [Stylus][stylus]? Click [here][install] to install.
 
 [Screenshot][screenshot]
 
-**Note:**
+>**Note:**
+>
+>- This style assumes you to _disable signature_ & using _new Kopitiam browsing style_
+>- Mobile browser not supported
 
-- This style assumes you to _disable signature_ & using _new Kopitiam browsing style_
+---
 
 ### What's changed:
 
-- most of the bg color to dark
-- container width smaller
-- bigger font size
-- text area for quick replying also bigger
+- Most of the bg color to dark
+- Container width smaller
+- Bigger font size
+- Text area for quick replying also bigger
 
 ### How to Install:
 
@@ -26,21 +29,21 @@ Already have [Stylus][stylus]? Click [here][install] to install.
 
 ### Issues:
 
-- not tested on other boards except /kopitiam/
-- issue with post with formatted texts*: https://forum.lowyat.net/topic/5041690
-- issue with users signature*
-- some fb embeds (iframe) cannot change color, I forced to show white
-- inbox not yet implemented
-- search in topics page not implemented
-- many places lah not yet implemented
+- Note tested on other boards except /kopitiam/
+- Issue with post with formatted texts*: https://forum.lowyat.net/topic/5041690
+- Issue with users signature*
+- Some fb embeds (iframe) cannot change color, I forced to show white
+- Inbox not yet implemented
+- Search in topics page not implemented
+- Many places lah not yet implemented
 
 **2lazy2fix*
 
 ### FAQ:
 
 1. Where do I find updates?
-    - Go to Stylus Manage and update this script
-2. Who gonna maintain?
+    - Go to Stylus Manage and update this script, if there is any
+2. Who is gonna maintain?
     - Me. As long as I still browse LYN during my entire lifetime.
 3. Are you trying to hack my compuater?
     - No
