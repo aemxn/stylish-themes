@@ -146,11 +146,11 @@
     SPAN.member-tagged {
         background-color: #3f93f7;
     }
-    
+
     #topic_replies {
         padding: 1em;
     }
-    
+
     #topic_replies A {
         text-decoration: underline;
         color: #3f93f7;
@@ -207,6 +207,11 @@
     .borderwrap p.formbuttonrow,
     .borderwrap p.formbuttonrow1 {
         background: #39506f !important;
+    }
+
+    /** post deleted */
+    .borderwrap p {
+        background: #2d4059;
     }
 
     td.catend {
