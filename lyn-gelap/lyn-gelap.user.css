@@ -203,6 +203,7 @@
         font-size: 1rem;
     }
 
+    /** spoiler */
     .post_text > .spoilertop {
         background: #0d7377;
         color: #e4e4e4;
@@ -210,6 +211,17 @@
 
     .post_text > .spoilermain {
         background: #00587a;
+        color: white;
+    }
+
+    /** spoiler inside quote post */
+    .quotemain > .spoilertop {
+        background: #0e8f94;
+        color: #e4e4e4;
+    }
+
+    .quotemain > .spoilermain {
+        background: #006992;
         color: white;
     }
 
