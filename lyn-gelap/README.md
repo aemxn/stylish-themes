@@ -30,10 +30,10 @@ Already have [Stylus][stylus]? Click [here][install] to install.
 ### Issues:
 
 - Note tested on other boards except /kopitiam/
-- Issue with post with formatted texts*: https://forum.lowyat.net/topic/5041690
+- Issue with post with formatted texts ([Issue][formatted-post])*
 - Issue with users signature*
 - Some fb embeds (iframe) cannot change color, I forced to show white
-- Only first level quotes implemented
+- Only first level quotes implemented ([Issue][multilevel-quote])*
 - Inbox not yet implemented
 - Search in topics page not implemented
 - Many places lah not yet implemented
@@ -55,3 +55,6 @@ Already have [Stylus][stylus]? Click [here][install] to install.
 [stylus]: https://add0n.com/stylus.html
 [install]: https://github.com/aemxn/stylish-themes/raw/master/lyn-gelap/lyn-gelap.user.css
 [screenshot]: https://github.com/aemxn/stylish-themes/tree/master/lyn-gelap/screenshot
+
+[multilevel-quote]: https://forum.lowyat.net/index.php?showtopic=5026809&view=findpost&p=98595360
+[formatted-post]: https://forum.lowyat.net/topic/5041690
