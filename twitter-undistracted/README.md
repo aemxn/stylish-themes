@@ -38,4 +38,4 @@ v1.2.1
 
 
 [stylus]: https://add0n.com/stylus.html
-[install]: https://github.com/aemxn/stylish-themes/raw/master/lyn-gelap/lyn-gelap.user.css
+[install]: https://github.com/aemxn/stylish-themes/raw/master/twitter-undistracted/twitter-undistracted.user.css

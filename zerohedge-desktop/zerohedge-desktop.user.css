@@ -1,9 +1,12 @@
 /* ==UserStyle==
 @name           Zerohedge Desktop
-@namespace      github.com/openstyles/stylus
+@namespace      github.com/aemxn/stylish-themes/
 @version        1.0.0
-@description    A new userstyle
-@author         Me
+@description    Cleaner Zerohedge
+@author         Unknown Author
+@homepageURL    https://github.com/aemxn/stylish-themes/tree/master/zerohedge-desktop
+@updateURL      https://github.com/aemxn/stylish-themes/raw/master/zerohedge-desktop/zerohedge-desktop.user.css
+@license        CC-BY-SA-4.0
 ==/UserStyle== */
 @-moz-document domain("www.zerohedge.com"),
 domain("zerohedge.com") {
