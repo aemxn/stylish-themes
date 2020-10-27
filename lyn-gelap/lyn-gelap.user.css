@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Lowyat.NET — Edisi Gelap
 @namespace   github.com/aemxn/stylish-themes/
-@version     1.0.1
+@version     1.0.2
 @homepageURL https://github.com/aemxn/stylish-themes/tree/master/lyn-gelap
 @updateURL   https://github.com/aemxn/stylish-themes/raw/master/lyn-gelap/lyn-gelap.user.css
 @license     CC-BY-SA-4.0
@@ -17,7 +17,8 @@
     #userlinks,
     #userlinksguest {
         background: #008891;
-        border: none;
+        border: 1px solid #C2CFDF;
+        position: sticky;
     }
 
     #userlinks p,
@@ -42,6 +43,11 @@
     /** table/post wrapper */
     #ipbwrapper {
         width: 65%;
+    }
+
+    /** header (experimental) */
+    #ipbwrapper > .borderwrap:nth-child(2) {
+        display: none;
     }
 
     /** topic table */
@@ -322,7 +328,7 @@
     .tablepad > .desc {
         color: #77acf3;
     }
-    
+
     .tablepad > div[style] {
         background: #008891 !important;
     }
