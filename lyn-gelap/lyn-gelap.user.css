@@ -158,6 +158,10 @@
     .lastaction {
         color: #e7e7de
     }
+    
+    #replies_to_me {
+        position: fixed;
+    }
 
     #replies_to_me A {
         color: red
