@@ -8,14 +8,13 @@ Already have [Stylus][stylus]? Click [here][install] to install.
 
 >**Note:**
 >
->- This style assumes you to _disable signature_ & using _new Kopitiam browsing style_
 >- Mobile browser not supported
 
 ---
 
 ### What's changed:
 
-- Most of the bg color to dark
+- Most of the bg color to dark blue/dark turquoise
 - Container width smaller
 - Bigger font size
 - Text area for quick replying also bigger

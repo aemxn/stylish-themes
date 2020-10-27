@@ -312,6 +312,21 @@
         color: #4785fd;
     }
 
+    /** outline mode */
+    .plainborder,
+    .tablefill,
+    .tablepad {
+        background: #39506f;
+    }
+
+    .tablepad > .desc {
+        color: #77acf3;
+    }
+    
+    .tablepad > div[style] {
+        background: #008891 !important;
+    }
+
     /** POST REPLY PAGE */
     .formtable td.formtitle,
     .formsubtitle {
