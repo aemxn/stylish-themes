@@ -14,11 +14,14 @@
     }
 
     /** TOPICS LIST (somewhat global, idk) */
+    
+    /* user control panel header */
     #userlinks,
     #userlinksguest {
         background: #008891;
         border: 1px solid #C2CFDF;
         position: sticky;
+        top: 0;
     }
 
     #userlinks p,

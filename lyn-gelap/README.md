@@ -18,6 +18,7 @@ Already have [Stylus][stylus]? Click [here][install] to install.
 - Container width smaller
 - Bigger font size
 - Text area for quick replying also bigger
+- Sticky header
 
 ### How to Install:
 
