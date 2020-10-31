@@ -14,7 +14,6 @@
     }
 
     /** TOPICS LIST (somewhat global, idk) */
-    
     /* user control panel header */
     #userlinks,
     #userlinksguest {
@@ -158,7 +157,7 @@
     .lastaction {
         color: #e7e7de
     }
-    
+
     #replies_to_me {
         position: fixed;
     }
@@ -246,6 +245,22 @@
         font-size: 1rem;
     }
 
+    /** spoiler inside quote post */
+    .quotemain > .spoilertop {
+        background: #0e8f94;
+        color: #e4e4e4;
+    }
+
+    .quotemain > .spoilermain {
+        background: #006992;
+        color: white;
+    }
+    
+    /** table inside quote */
+    .quotemain > table tr td {
+        color: black;
+    }
+
 
     /** default signature plain text */
     .signature {
@@ -261,17 +276,6 @@
 
     .post_text > .spoilermain {
         background: #00587a;
-        color: white;
-    }
-
-    /** spoiler inside quote post */
-    .quotemain > .spoilertop {
-        background: #0e8f94;
-        color: #e4e4e4;
-    }
-
-    .quotemain > .spoilermain {
-        background: #006992;
         color: white;
     }
 
