@@ -19,8 +19,9 @@ domain("zerohedge.com") {
 
 
     body {
-        color: #636363 !important;
+        color: #fafafa !important;
         font-size: 1.6rem !important;
+        background-color: #2f2f2f;
         line-height: 1.5 !important;
     }
 
