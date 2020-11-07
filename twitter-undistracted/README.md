@@ -16,7 +16,7 @@ A minimized Twitter interface with a motivation that lets you focus more on what
 
 ### Changelog
 
-v1.5 (21 July 2020)
+v1.5.1 (21 July 2020)
 - removed Direct Message popup
 
 v1.4 (17 June 2020)
