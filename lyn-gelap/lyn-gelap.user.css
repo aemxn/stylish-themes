@@ -21,6 +21,7 @@
         border: 1px solid #C2CFDF;
         position: sticky;
         top: 0;
+        z-index: 1;
     }
 
     #userlinks p,
