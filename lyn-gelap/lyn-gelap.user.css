@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Lowyat.NET — Edisi Gelap
 @namespace   github.com/aemxn/stylish-themes/
-@version     1.0.3
+@version     1.0.4
 @homepageURL https://github.com/aemxn/stylish-themes/tree/master/lyn-gelap
 @updateURL   https://github.com/aemxn/stylish-themes/raw/master/lyn-gelap/lyn-gelap.user.css
 @license     CC-BY-SA-4.0
@@ -288,6 +288,16 @@
     .borderwrap p.formbuttonrow,
     .borderwrap p.formbuttonrow1 {
         background: #39506f !important;
+    }
+    
+    /** reports notice */
+    .errorwrap h4, #pmnotewrap h4 {
+        color: white;
+        background-color: #983131;
+    }
+    
+    .errorwrap table tr td, #pmnotewrap table tr td {
+        color: black;
     }
 
     /** post deleted */
