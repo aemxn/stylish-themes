@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Zerohedge Desktop
 @namespace      github.com/aemxn/stylish-themes/
-@version        1.0.1
+@version        1.0.2
 @description    Cleaner Zerohedge
 @author         Unknown Author
 @homepageURL    https://github.com/aemxn/stylish-themes/tree/master/zerohedge-desktop
@@ -19,10 +19,11 @@ domain("zerohedge.com") {
 
 
     body {
+        font-family: system-ui;
         color: #fafafa !important;
         font-size: 1.6rem !important;
-        background-color: #2f2f2f;
-        line-height: 1.5 !important;
+        background-color: #111;
+        line-height: 1.7 !important;
     }
 
     .node__content p {
@@ -31,6 +32,14 @@ domain("zerohedge.com") {
     main {
         padding-left: 100px !important;
         max-width: 940px !important;
+    }
+    
+    #header {
+        display: none;
+    }
+    
+    .layout-featured {
+        display: none;
     }
 
     body.sidebars #squeeze {
@@ -77,5 +86,9 @@ domain("zerohedge.com") {
         color: inherit !important;
         border: none !important;
         margin: 0 10px !important;
+    }
+    
+    .newsletter-insert {
+        display: none;
     }
 }
